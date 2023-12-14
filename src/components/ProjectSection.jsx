@@ -6,8 +6,8 @@ import { motion, useInView } from "framer-motion";
 const projectData = [
   {
     id: "1",
-    title: "Django Crud",
-    description: "React + Tailwind",
+    title: "Task Crud",
+    description: "Django - Jinja - Boostrap",
     image: "/images/projects/Project_3.png",
     tag: ["Projects"],
     gitUrl: "https://github.com/PedroMolina17/crud_django",
@@ -19,7 +19,7 @@ const projectData = [
     description: "React + Tailwind",
     image: "/images/projects/Project_2.png",
     tag: ["Projects"],
-    gitUrl: "https://github.com/PedroMolina17/Crud_React.git",
+    gitUrl: "https://github.com/PedroMolina17/portafolioweb",
     previewUrl: "/images/projects/Project_2.png",
   },
   {
@@ -192,6 +192,7 @@ const ProjectSection = () => {
               imgUrl={project.image}
               gitUrl={project.gitUrl}
               previewUrl={project.previewUrl}
+              isCertificate={project.tag.includes("Certificates")}
             />
           </motion.li>
         ))}
