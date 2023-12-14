@@ -51,6 +51,7 @@ const About = () => {
               <a
                 className="max-sm:mt-3 px-6 py-3 w-full sm:w-fit rounded-full mr-4 bg-gradient-to-br from-[#544a7d] via-[#544a7d] to-[#ffd452] hover:from-[#ffd452] text-white "
                 download="Cv.pdf"
+                target="_blank"
               >
                 Download CV
               </a>
