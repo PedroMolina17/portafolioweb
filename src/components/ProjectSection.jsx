@@ -6,16 +6,16 @@ import { motion, useInView } from "framer-motion";
 const projectData = [
   {
     id: "1",
-    title: "Crud React",
-    description: "React + SQL + Bootstrap",
-    image: "/images/projects/Project_1.png",
+    title: "Django Crud",
+    description: "React + Tailwind",
+    image: "/images/projects/Project_3.png",
     tag: ["Projects"],
-    gitUrl: "https://github.com/PedroMolina17/Crud_React.git",
-    previewUrl: "/images/projects/Project_1.png",
+    gitUrl: "https://github.com/PedroMolina17/crud_django",
+    previewUrl: "https://django-auth-crud-y8x5.onrender.com/",
   },
   {
     id: "2",
-    title: "Portalio Web",
+    title: "Portfolio Web",
     description: "React + Tailwind",
     image: "/images/projects/Project_2.png",
     tag: ["Projects"],
@@ -24,6 +24,15 @@ const projectData = [
   },
   {
     id: "3",
+    title: "Crud React",
+    description: "React + SQL + Bootstrap",
+    image: "/images/projects/Project_1.png",
+    tag: ["Projects"],
+    gitUrl: "https://github.com/PedroMolina17/Crud_React.git",
+    previewUrl: "/images/projects/Project_1.png",
+  },
+  {
+    id: "4",
     title: "Cognitive Class",
     description: "SQL and Relational Database",
     image: "/images/certificates/Certificate_1c.png",
@@ -32,7 +41,7 @@ const projectData = [
     previewUrl: "/images/certificates/Certificate_1c.png",
   },
   {
-    id: "4",
+    id: "5",
     title: "Microsoft",
     description: "Fundamentos de desarrollo",
     image: "/images/certificates/Certificate_2c.png",
@@ -41,7 +50,7 @@ const projectData = [
     previewUrl: "/images/certificates/Certificate_2c.png",
   },
   {
-    id: "5",
+    id: "6",
     title: "AWS",
     description: "Getting started on Data Analitycs",
     image: "/images/certificates/Certificate_3c.png",
@@ -50,7 +59,16 @@ const projectData = [
     previewUrl: "/images/certificates/Certificate_3c.png",
   },
   {
-    id: "6",
+    id: "15",
+    title: "Oracle",
+    description: "Oracle Cloud Data Management",
+    image: "/images/certificates/Certificate_12c.png",
+    tag: ["Certificates"],
+    gitUrl: "/",
+    previewUrl: "/images/certificates/Certificate_12c.png",
+  },
+  {
+    id: "7",
     title: "Fundación Telefonica",
     description: "HTML5 + CSS",
     image: "/images/certificates/Certificate_4c.png",
@@ -59,7 +77,7 @@ const projectData = [
     previewUrl: "/images/certificates/Certificate_4c.png",
   },
   {
-    id: "7",
+    id: "8",
     title: "Fundación Telefonica",
     description: "Programacion con JavaScript",
     image: "/images/certificates/Certificate_5c.png",
@@ -68,7 +86,7 @@ const projectData = [
     previewUrl: "/images/certificates/Certificate_5c.png",
   },
   {
-    id: "8",
+    id: "9",
     title: "Fundación Telefonica",
     description: "Wordpress",
     image: "/images/certificates/Certificate_6c.png",
@@ -77,7 +95,7 @@ const projectData = [
     previewUrl: "/images/certificates/Certificate_6c.png",
   },
   {
-    id: "9",
+    id: "10",
     title: "Mimo",
     description: "Web Development",
     image: "/images/certificates/Certificate_7c.png",
@@ -86,7 +104,7 @@ const projectData = [
     previewUrl: "/images/certificates/Certificate_7c.png",
   },
   {
-    id: "10",
+    id: "11",
     title: "Mimo",
     description: "PYTHON",
     image: "/images/certificates/Certificate_8c.png",
@@ -95,7 +113,7 @@ const projectData = [
     previewUrl: "/images/certificates/Certificate_8c.png",
   },
   {
-    id: "11",
+    id: "12",
     title: "Mimo",
     description: "SQL",
     image: "/images/certificates/Certificate_9c.png",
@@ -104,7 +122,7 @@ const projectData = [
     previewUrl: "/images/certificates/Certificate_9c.png",
   },
   {
-    id: "12",
+    id: "13",
     title: "Mimo",
     description: "HTML",
     image: "/images/certificates/Certificate_10c.png",
@@ -113,8 +131,8 @@ const projectData = [
     previewUrl: "/images/certificates/Certificate_10c.png",
   },
   {
-    id: "13",
-    title: "Portalio Web",
+    id: "14",
+    title: "Mimo",
     description: "JavaScript",
     image: "/images/certificates/Certificate_11c.png",
     tag: ["Certificates"],
