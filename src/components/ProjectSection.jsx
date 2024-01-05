@@ -33,6 +33,15 @@ const projectData = [
   },
   {
     id: "4",
+    title: "Catalogue",
+    description: "React + Tailwind",
+    image: "/images/projects/Project_4.png",
+    tag: ["Projects"],
+    gitUrl: "https://github.com/PedroMolina17/gruponoa",
+    previewUrl: "https://gruponoa.vercel.app/",
+  },
+  {
+    id: "5",
     title: "Cognitive Class",
     description: "SQL and Relational Database",
     image: "/images/certificates/Certificate_1c.png",
@@ -41,7 +50,7 @@ const projectData = [
     previewUrl: "/images/certificates/Certificate_1c.png",
   },
   {
-    id: "5",
+    id: "6",
     title: "Microsoft",
     description: "Fundamentos de desarrollo",
     image: "/images/certificates/Certificate_2c.png",
@@ -50,7 +59,7 @@ const projectData = [
     previewUrl: "/images/certificates/Certificate_2c.png",
   },
   {
-    id: "6",
+    id: "7",
     title: "AWS",
     description: "Getting started on Data Analitycs",
     image: "/images/certificates/Certificate_3c.png",
@@ -59,7 +68,7 @@ const projectData = [
     previewUrl: "/images/certificates/Certificate_3c.png",
   },
   {
-    id: "7",
+    id: "8",
     title: "Oracle",
     description: "Oracle Cloud Data Management",
     image: "/images/certificates/Certificate_12c.png",
@@ -68,7 +77,7 @@ const projectData = [
     previewUrl: "/images/certificates/Certificate_12c.png",
   },
   {
-    id: "8",
+    id: "9",
     title: "Fundación Telefonica",
     description: "HTML5 + CSS",
     image: "/images/certificates/Certificate_4c.png",
@@ -77,7 +86,7 @@ const projectData = [
     previewUrl: "/images/certificates/Certificate_4c.png",
   },
   {
-    id: "9",
+    id: "10",
     title: "Fundación Telefonica",
     description: "Programacion con JavaScript",
     image: "/images/certificates/Certificate_5c.png",
@@ -86,7 +95,7 @@ const projectData = [
     previewUrl: "/images/certificates/Certificate_5c.png",
   },
   {
-    id: "10",
+    id: "11",
     title: "Fundación Telefonica",
     description: "Wordpress",
     image: "/images/certificates/Certificate_6c.png",
@@ -95,7 +104,7 @@ const projectData = [
     previewUrl: "/images/certificates/Certificate_6c.png",
   },
   {
-    id: "11",
+    id: "12",
     title: "Mimo",
     description: "Web Development",
     image: "/images/certificates/Certificate_7c.png",
@@ -104,7 +113,7 @@ const projectData = [
     previewUrl: "/images/certificates/Certificate_7c.png",
   },
   {
-    id: "12",
+    id: "13",
     title: "Mimo",
     description: "PYTHON",
     image: "/images/certificates/Certificate_8c.png",
@@ -113,7 +122,7 @@ const projectData = [
     previewUrl: "/images/certificates/Certificate_8c.png",
   },
   {
-    id: "13",
+    id: "14",
     title: "Mimo",
     description: "SQL",
     image: "/images/certificates/Certificate_9c.png",
@@ -122,7 +131,7 @@ const projectData = [
     previewUrl: "/images/certificates/Certificate_9c.png",
   },
   {
-    id: "14",
+    id: "15",
     title: "Mimo",
     description: "HTML",
     image: "/images/certificates/Certificate_10c.png",
@@ -131,7 +140,7 @@ const projectData = [
     previewUrl: "/images/certificates/Certificate_10c.png",
   },
   {
-    id: "15",
+    id: "16",
     title: "Mimo",
     description: "JavaScript",
     image: "/images/certificates/Certificate_11c.png",
