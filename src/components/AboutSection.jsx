@@ -12,10 +12,11 @@ const TAB_DATA = [
         <li>SQL</li>
         <li>Oracle</li>
         <li>React</li>
+        <li>Django</li>
         <li>Tailwind</li>
         <li>CSS</li>
         <li>JavaScript</li>
-        <li>HTML</li>
+        <li>Python</li>
         <li>Bootstrap</li>
       </ul>
     ),
