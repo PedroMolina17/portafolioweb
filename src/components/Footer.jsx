@@ -1,4 +1,6 @@
+"use client";
 import React from "react";
+import { FloatingWhatsApp } from "react-floating-whatsapp";
 
 const Footer = () => {
   return (
@@ -7,6 +9,13 @@ const Footer = () => {
         <span>Pedro M.</span>
         <p className="text-slate-600 ">All right reserved.</p>
       </div>
+      <FloatingWhatsApp
+        phoneNumber="+51 934629301"
+        className="text-black"
+        accountName="Pedro Molina"
+        avatar="/images/Avatar.png"
+        chatMessage="¡Hola! 🤝 ¿En que lo puedo ayudar?"
+      />
     </footer>
   );
 };
