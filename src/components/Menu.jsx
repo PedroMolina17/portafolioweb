@@ -66,7 +66,7 @@ const About = () => {
         >
           <div className=" rounded-full bg-[#181818] w-[250px] h-[250px] lg:w-[450px] lg:h-[450px]  relative">
             <Image
-              src="/images/Avatar2.png"
+              src="/images/Avatar.png"
               alt="Pedro Molina Noa"
               //* Aprender el transform
               className="absolute transform lg:w-[350px] lg:h-[350px] w-[250px] h-[250px] -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2 rounded-full"
