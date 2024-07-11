@@ -1,9 +1,13 @@
 "use client";
 import React, { useState } from "react";
-import GithubIcon from "../../public/images/github.png";
-import LinkedinIcon from "../../public/images/linkedin-i.png";
+
 import Link from "next/link";
 import Image from "next/image";
+
+import { DiMysql } from "react-icons/di";
+import { FaReact } from "react-icons/fa";
+import { SiNestjs, SiExpress, SiDjango } from "react-icons/si";
+import { RiNextjsLine } from "react-icons/ri";
 
 const EmailSection = () => {
   const [emailSubmitted, setEmailSubmitted] = useState(false);
@@ -47,14 +51,13 @@ const EmailSection = () => {
           for collaborations, professional opportunities, or any other topics
           youI&apos;d like to discuss.
         </p>
-        <div className="socials flex flex-row gap-2">
-          <Link href="https://github.com/PedroMolina17">
-            <Image src={GithubIcon} alt="Github Icon " />
-          </Link>
-
-          <Link href="https://www.linkedin.com/in/pedro-molina-noa-a18aa91b9/">
-            <Image src={LinkedinIcon} alt="Linkedin Icon " />
-          </Link>
+        <div className="flex gap-2 text-5xl flex-wrap">
+          <FaReact />
+          <SiNestjs />
+          <RiNextjsLine />
+          <DiMysql />
+          <SiExpress />
+          <SiDjango />
         </div>
       </div>
       {emailSubmitted ? (

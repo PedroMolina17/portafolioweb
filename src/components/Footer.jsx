@@ -9,13 +9,15 @@ const Footer = () => {
         <span>Pedro M.</span>
         <p className="text-slate-600 ">All right reserved.</p>
       </div>
-      <FloatingWhatsApp
-        phoneNumber="+51 934629301"
-        className="text-black"
-        accountName="Pedro Molina"
-        avatar="/images/Avatar.png"
-        chatMessage="¡Hola! 🤝 ¿En que lo puedo ayudar?"
-      />
+      <div className="opacity-60 hover:opacity-100 hover:transition-colors">
+        <FloatingWhatsApp
+          phoneNumber="+51 934629301"
+          className="text-black"
+          accountName="Pedro Molina"
+          avatar="/images/Avatar.png"
+          chatMessage="¡Hola! 🤝 ¿En que lo puedo ayudar?"
+        />
+      </div>
     </footer>
   );
 };

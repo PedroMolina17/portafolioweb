@@ -4,6 +4,7 @@ import Link from "next/link";
 import NavLink from "./NavLink";
 import { Bars3Icon, XMarkIcon } from "@heroicons/react/24/solid";
 import MenuOverlay from "./MenuOverlay";
+import Networks from "./Networks";
 
 const navLinks = [
   { title: "About me", path: "#about" },
@@ -54,6 +55,7 @@ const Navbar = () => {
         </div>
         {navbarOpen ? <MenuOverlay links={navLinks} /> : null}
       </nav>
+      <Networks />
     </>
   );
 };
