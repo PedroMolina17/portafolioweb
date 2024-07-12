@@ -14,16 +14,28 @@ const Networks = () => {
         >
           <div className="border-r border-[#33353F] h-40 md:h-60"></div>
           <div className="flex flex-col gap-3 pt-2">
-            <Link href="https://wa.me/51934629301">
+            <Link
+              href="https://wa.me/51934629301"
+              className="hover:scale-105 transition-transform"
+            >
               <FaWhatsapp />
             </Link>
-            <Link href="https://github.com/PedroMolina17">
+            <Link
+              href="https://github.com/PedroMolina17"
+              className="hover:scale-105 transition-transform"
+            >
               <FaGithub />
             </Link>
-            <Link href="https://www.linkedin.com/in/pedro-molina-noa-a18aa91b9/">
+            <Link
+              href="https://www.linkedin.com/in/pedro-molina-noa-a18aa91b9/"
+              className="hover:scale-105 transition-transform"
+            >
               <FaLinkedin />
             </Link>
-            <Link href="https://www.facebook.com/pedro.molinanoa.5/">
+            <Link
+              href="https://www.facebook.com/pedro.molinanoa.5/"
+              className="hover:scale-105 transition-transform"
+            >
               <FaFacebook />
             </Link>
           </div>
