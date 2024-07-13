@@ -8,6 +8,7 @@ import Networks from "./Networks";
 
 const navLinks = [
   { title: "About me", path: "#about" },
+  { title: "Experience", path: "#experience" },
   { title: "Projects", path: "#projects" },
   { title: "Contact", path: "#contact" },
 ];

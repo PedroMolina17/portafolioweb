@@ -14,10 +14,10 @@ const TAB_DATA = [
         <li>React</li>
         <li>Django</li>
         <li>Tailwind</li>
-        <li>CSS</li>
+        <li>NestJs</li>
         <li>JavaScript</li>
         <li>Python</li>
-        <li>Bootstrap</li>
+        <li>Express</li>
       </ul>
     ),
   },

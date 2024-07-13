@@ -15,8 +15,8 @@ export default function Home() {
         <Menu />
         <AchievementsSection />
         <AboutSection />
-        <ProjectSection />
         <Jobs />
+        <ProjectSection />
         <EmailSection />
       </div>
       <Footer />
