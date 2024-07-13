@@ -33,6 +33,9 @@ const JobsCards = ({ state, title, description, year, company, imageUrl }) => {
             />
           </div>
           <h3 className="text-lg ">{company}</h3>
+          <button className="text-white font-bold rounded-md bg-[#181818] p-2">
+            Read more
+          </button>
         </div>
         <p className="max-md:text-base text-[#adb7be]">{description}</p>
       </div>
