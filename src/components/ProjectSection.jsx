@@ -6,6 +6,16 @@ import { motion, useInView } from "framer-motion";
 const projectData = [
   {
     id: "1",
+    title: "Ecommerce",
+    description: "Typescript - Express",
+    image: "/images/projects/Project_8.png",
+    tag: ["Projects"],
+    gitUrl: "https://github.com/PedroMolina17/ecommerce_typescript",
+    previewUrl:
+      "https://ecommerce-frontend-deploy-production.up.railway.app/admin-login",
+  },
+  {
+    id: "2",
     title: "Test Scalboost",
     description: "NestJs - NextJs",
     image: "/images/projects/Project_9.png",
@@ -13,15 +23,7 @@ const projectData = [
     gitUrl: "https://github.com/PedroMolina17/scalboost-PedroMolina/",
     previewUrl: "https://frontend-deploy-scalboost-production.up.railway.app/",
   },
-  {
-    id: "2",
-    title: "Ecommerce",
-    description: "Typescript - Tailwind",
-    image: "/images/projects/Project_8.png",
-    tag: ["Projects"],
-    gitUrl: "https://github.com/PedroMolina17/ecommerce_typescript",
-    previewUrl: "/images/projects/Project_8.png",
-  },
+
   {
     id: "3",
     title: "Ecommerce",
