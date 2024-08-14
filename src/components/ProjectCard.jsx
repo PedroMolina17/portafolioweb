@@ -1,6 +1,7 @@
 import React from "react";
 import { CodeBracketIcon, EyeIcon } from "@heroicons/react/24/outline";
 import Link from "next/link";
+import { CiLock } from "react-icons/ci";
 
 const ProjectCard = ({
   imgUrl,
@@ -9,6 +10,7 @@ const ProjectCard = ({
   gitUrl,
   previewUrl,
   isCertificate,
+  isPrivate,
 }) => {
   return (
     <div>
@@ -29,6 +31,15 @@ const ProjectCard = ({
             >
               <EyeIcon className="h-10 w-10 absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 text-[#ADB7BE] cursor-pointer group-hover/link:text-white" />
             </Link>
+          ) : isPrivate ? (
+            <>
+              <div
+                className="h-14 w-14 mr-2 border-2  relative rounded-full border-[#ADB7BE] hover:border-white group/link"
+                target="_blank"
+              >
+                <CiLock className="h-10 w-10 absolute top-1/2 left-1/2  transform -translate-x-1/2 -translate-y-1/2  text-[#ADB7BE] cursor-pointer group-hover/link:text-white" />
+              </div>
+            </>
           ) : (
             <>
               <Link

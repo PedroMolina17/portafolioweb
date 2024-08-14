@@ -13,6 +13,7 @@ const projectData = [
     gitUrl: "https://github.com/PedroMolina17/ecommerce_typescript",
     previewUrl:
       "https://ecommerce-frontend-deploy-production.up.railway.app/admin-login",
+    private: false,
   },
   {
     id: "2",
@@ -22,6 +23,7 @@ const projectData = [
     tag: ["Projects"],
     gitUrl: "https://github.com/PedroMolina17/scalboost-PedroMolina/",
     previewUrl: "https://frontend-deploy-scalboost-production.up.railway.app/",
+    private: false,
   },
 
   {
@@ -32,6 +34,7 @@ const projectData = [
     tag: ["Projects"],
     gitUrl: "https://github.com/PedroMolina17/django_react_store",
     previewUrl: "/images/projects/Project_5.png",
+    private: false,
   },
   {
     id: "4",
@@ -41,6 +44,7 @@ const projectData = [
     tag: ["Projects"],
     gitUrl: "https://github.com/PedroMolina17/pet",
     previewUrl: "https://pet-two-wheat.vercel.app/",
+    private: false,
   },
   {
     id: "5",
@@ -50,6 +54,7 @@ const projectData = [
     tag: ["Projects"],
     gitUrl: "https://github.com/PedroMolina17/tictac",
     previewUrl: "https://tictac-rouge-ten.vercel.app/",
+    private: false,
   },
   {
     id: "6",
@@ -59,6 +64,7 @@ const projectData = [
     tag: ["Projects"],
     gitUrl: "https://github.com/PedroMolina17/crud_django",
     previewUrl: "https://django-auth-crud-y8x5.onrender.com/",
+    private: false,
   },
   {
     id: "7",
@@ -68,6 +74,7 @@ const projectData = [
     tag: ["Projects"],
     gitUrl: "https://github.com/PedroMolina17/portafolioweb",
     previewUrl: "/images/projects/Project_2.png",
+    private: false,
   },
   {
     id: "8",
@@ -77,6 +84,7 @@ const projectData = [
     tag: ["Projects"],
     gitUrl: "https://github.com/PedroMolina17/Crud_React.git",
     previewUrl: "/images/projects/Project_1.png",
+    private: false,
   },
   {
     id: "9",
@@ -86,6 +94,7 @@ const projectData = [
     tag: ["Projects"],
     gitUrl: "https://github.com/PedroMolina17/gruponoa",
     previewUrl: "https://gruponoa.vercel.app/",
+    private: false,
   },
 
   {
@@ -250,6 +259,7 @@ const ProjectSection = () => {
               gitUrl={project.gitUrl}
               previewUrl={project.previewUrl}
               isCertificate={project.tag.includes("Certificates")}
+              isPrivate={project.private}
             />
           </motion.li>
         ))}
