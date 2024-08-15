@@ -17,7 +17,7 @@ const projectData = [
   },
   {
     id: "2",
-    title: "Test Scalboost",
+    title: "Scalboost Test",
     description: "NestJs - NextJs",
     image: "/images/projects/Project_9.png",
     tag: ["Projects"],
@@ -25,9 +25,38 @@ const projectData = [
     previewUrl: "https://frontend-deploy-scalboost-production.up.railway.app/",
     private: false,
   },
-
   {
     id: "3",
+    title: "Intranet Devdatep",
+    description: "React",
+    image: "/images/projects/Project_10.png",
+    tag: ["Projects"],
+    gitUrl: "https://github.com/PedroMolina17/django_react_store",
+    previewUrl: "/images/projects/Project_10.png",
+    private: true,
+  },
+  {
+    id: "4",
+    title: "SIOM Devdatep",
+    description: "React",
+    image: "/images/projects/Project_11.png",
+    tag: ["Projects"],
+    gitUrl: "https://github.com/PedroMolina17/django_react_store",
+    previewUrl: "/images/projects/Project_11.png",
+    private: true,
+  },
+  // {
+  //   id: "5",
+  //   title: "Intranet Devdatep",
+  //   description: "DjangoRest - ReactRedux - Tailwind",
+  //   image: "/images/projects/Project_10.png",
+  //   tag: ["Projects"],
+  //   gitUrl: "https://github.com/PedroMolina17/django_react_store",
+  //   previewUrl: "/images/projects/Project_11.png",
+  //   private: true,
+  // },
+  {
+    id: "6",
     title: "Ecommerce",
     description: "DjangoRest - ReactRedux - Tailwind",
     image: "/images/projects/Project_5.png",
@@ -37,7 +66,7 @@ const projectData = [
     private: false,
   },
   {
-    id: "4",
+    id: "7",
     title: "Copy of Tinder",
     description: "React - Tailwind",
     image: "/images/projects/Project_6.png",
@@ -47,7 +76,7 @@ const projectData = [
     private: false,
   },
   {
-    id: "5",
+    id: "8",
     title: "Tic Tac",
     description: "React- Tailwind",
     image: "/images/projects/Project_7.png",
@@ -56,18 +85,9 @@ const projectData = [
     previewUrl: "https://tictac-rouge-ten.vercel.app/",
     private: false,
   },
+
   {
-    id: "6",
-    title: "Task Crud",
-    description: "Django - Python - Boostrap",
-    image: "/images/projects/Project_3.png",
-    tag: ["Projects"],
-    gitUrl: "https://github.com/PedroMolina17/crud_django",
-    previewUrl: "https://django-auth-crud-y8x5.onrender.com/",
-    private: false,
-  },
-  {
-    id: "7",
+    id: "9",
     title: "Portfolio Web",
     description: "React + Tailwind",
     image: "/images/projects/Project_2.png",
@@ -76,19 +96,10 @@ const projectData = [
     previewUrl: "/images/projects/Project_2.png",
     private: false,
   },
+
   {
-    id: "8",
-    title: "Crud React",
-    description: "React + SQL + Bootstrap",
-    image: "/images/projects/Project_1.png",
-    tag: ["Projects"],
-    gitUrl: "https://github.com/PedroMolina17/Crud_React.git",
-    previewUrl: "/images/projects/Project_1.png",
-    private: false,
-  },
-  {
-    id: "9",
-    title: "Catalogue",
+    id: "10",
+    title: "Catalog",
     description: "React + Tailwind",
     image: "/images/projects/Project_4.png",
     tag: ["Projects"],
@@ -98,7 +109,7 @@ const projectData = [
   },
 
   {
-    id: "10",
+    id: "11",
     title: "Cognitive Class",
     description: "SQL and Relational Database",
     image: "/images/certificates/Certificate_1c.png",
@@ -107,7 +118,7 @@ const projectData = [
     previewUrl: "/images/certificates/Certificate_1c.png",
   },
   {
-    id: "11",
+    id: "12",
     title: "Microsoft",
     description: "Fundamentos de desarrollo",
     image: "/images/certificates/Certificate_2c.png",
@@ -116,7 +127,7 @@ const projectData = [
     previewUrl: "/images/certificates/Certificate_2c.png",
   },
   {
-    id: "12",
+    id: "13",
     title: "AWS",
     description: "Getting started on Data Analitycs",
     image: "/images/certificates/Certificate_3c.png",
@@ -125,7 +136,7 @@ const projectData = [
     previewUrl: "/images/certificates/Certificate_3c.png",
   },
   {
-    id: "13",
+    id: "14",
     title: "Oracle",
     description: "Oracle Cloud Data Management",
     image: "/images/certificates/Certificate_12c.png",
@@ -134,7 +145,7 @@ const projectData = [
     previewUrl: "/images/certificates/Certificate_12c.png",
   },
   {
-    id: "14",
+    id: "15",
     title: "Fundación Telefonica",
     description: "HTML5 + CSS",
     image: "/images/certificates/Certificate_4c.png",
@@ -143,7 +154,7 @@ const projectData = [
     previewUrl: "/images/certificates/Certificate_4c.png",
   },
   {
-    id: "15",
+    id: "16",
     title: "Fundación Telefonica",
     description: "Programacion con JavaScript",
     image: "/images/certificates/Certificate_5c.png",
@@ -152,7 +163,7 @@ const projectData = [
     previewUrl: "/images/certificates/Certificate_5c.png",
   },
   {
-    id: "16",
+    id: "17",
     title: "Fundación Telefonica",
     description: "Wordpress",
     image: "/images/certificates/Certificate_6c.png",
@@ -161,7 +172,7 @@ const projectData = [
     previewUrl: "/images/certificates/Certificate_6c.png",
   },
   {
-    id: "17",
+    id: "18",
     title: "Mimo",
     description: "Web Development",
     image: "/images/certificates/Certificate_7c.png",
@@ -170,7 +181,7 @@ const projectData = [
     previewUrl: "/images/certificates/Certificate_7c.png",
   },
   {
-    id: "18",
+    id: "19",
     title: "Mimo",
     description: "PYTHON",
     image: "/images/certificates/Certificate_8c.png",
@@ -179,7 +190,7 @@ const projectData = [
     previewUrl: "/images/certificates/Certificate_8c.png",
   },
   {
-    id: "19",
+    id: "20",
     title: "Mimo",
     description: "SQL",
     image: "/images/certificates/Certificate_9c.png",
@@ -188,7 +199,7 @@ const projectData = [
     previewUrl: "/images/certificates/Certificate_9c.png",
   },
   {
-    id: "20",
+    id: "21",
     title: "Mimo",
     description: "HTML",
     image: "/images/certificates/Certificate_10c.png",
@@ -197,7 +208,7 @@ const projectData = [
     previewUrl: "/images/certificates/Certificate_10c.png",
   },
   {
-    id: "21",
+    id: "22",
     title: "Mimo",
     description: "JavaScript",
     image: "/images/certificates/Certificate_11c.png",
