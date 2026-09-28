@@ -8,6 +8,17 @@ const Jobs = () => {
         <div className="w-full flex flex-col gap-6">
           <JobsCards
             state={true}
+            title="Analist Programmer"
+            company="Textil del Valle"
+            year={"2026"}
+            description={
+              "Analyze and develop software requirements, collaborate with users to gather and define business needs, create and track incidents, and maintain and improve enterprise applications. Develop solutions using Angular, .NET, and SQL, working with business logic, databases, and APIs while coordinating with different teams to ensure requirements are properly implemented."
+            }
+            imageUrl="/images/tdv.png"
+          />
+
+          <JobsCards
+            state={false}
             title="Co-Leader Frontend Developer"
             company="Devdatep Consulting"
             year={"2024"}

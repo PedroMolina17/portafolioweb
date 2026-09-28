@@ -216,6 +216,24 @@ const projectData = [
     gitUrl: "/",
     previewUrl: "/images/certificates/Certificate_11c.png",
   },
+  {
+    id: "22",
+    title: "Platzi",
+    description: "DevOps",
+    image: "/images/certificates/Certificate_13c.jpg",
+    tag: ["Certificates"],
+    gitUrl: "/",
+    previewUrl: "/images/certificates/Certificate_13c.jpg",
+  },
+  {
+    id: "22",
+    title: "Platzi",
+    description: "Git y GitHub",
+    image: "/images/certificates/Certificate_14c.jpg",
+    tag: ["Certificates"],
+    gitUrl: "/",
+    previewUrl: "/images/certificates/Certificate_14c.jpg",
+  },
 ];
 
 const ProjectSection = () => {
@@ -228,7 +246,7 @@ const ProjectSection = () => {
   };
 
   const filteredProjects = projectData.filter((project) =>
-    project.tag.includes(tag)
+    project.tag.includes(tag),
   );
 
   const cardVariants = {

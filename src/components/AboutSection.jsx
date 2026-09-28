@@ -10,13 +10,13 @@ const TAB_DATA = [
     content: (
       <ul className="list-disc pl-2">
         <li>SQL</li>
-        <li>Oracle</li>
+        <li>Angular</li>
         <li>React</li>
         <li>Django</li>
-        <li>Tailwind</li>
+        <li>DevOps</li>
         <li>NestJs</li>
         <li>JavaScript</li>
-        <li>Python</li>
+        <li>Net</li>
         <li>Express</li>
       </ul>
     ),
@@ -37,6 +37,8 @@ const TAB_DATA = [
     id: "certifications",
     content: (
       <ul className="list-disc pl-2">
+        <li> Azure Devops Flujos CI y CD - Platzi</li>
+        <li> Git y Github - Platzi</li>
         <li> SQL and Relational Databases - Cognitive Class</li>
         <li>
           Fundamentos profesionales del desarrollo de software - Microsoft and

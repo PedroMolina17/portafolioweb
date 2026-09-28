@@ -6,21 +6,21 @@ const AnimatedNumbers = dynamic(
   () => {
     return import("react-animated-numbers");
   },
-  { ssr: false }
+  { ssr: false },
 );
 
 const achievementsList = [
   {
     metric: "Projects",
-    value: "8",
+    value: "9",
   },
   {
     metric: "Certificates",
-    value: "12",
+    value: "14",
   },
   {
     metric: "Years",
-    value: "1",
+    value: "3",
     postfix: "+",
   },
 ];
